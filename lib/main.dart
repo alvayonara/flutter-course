@@ -78,7 +78,7 @@ class HomeScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Text(
-                  "Category",
+                  "Categories",
                   style: kTitleTextStyle,
                 ),
                 Text(
@@ -117,7 +117,7 @@ class HomeScreen extends StatelessWidget {
                               '${categories[index].numOfCourses} Courses',
                               style:
                                   TextStyle(color: kTextColor.withOpacity(.5)),
-                            )
+                            ),
                           ],
                         ),
                       );
